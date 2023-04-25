@@ -19,4 +19,4 @@ for p = 1:length(platform2)
 
     distance(p) = sqrt((rowDiff * rowDist)^2 + (colDiff * colDist)^2);
 end
-distance = min(distance(p));
+distance = min(distance);
